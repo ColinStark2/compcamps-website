@@ -2,29 +2,14 @@ var favSongs = [
   {
     order: 1,
     song: "humbling river ",
-    artist: unknown,
-    link: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/O0YxeTjFn70\" frameborder=\"0\" allowfullscreen></iframe>",
-  },
-  {
-    order: 2,
-    song: "",
-    artist: ""
-  },
-  {
-    order: 3,
-    song: "",
-    artist: "-"
-  },
-  {
-    order: 2,
-    song: "",
-    artist: ""
-  },
-  {
-    order: 3,
-    song: "Chicken Dance",
-    artist: "-"
-  }
+    artist: "unknown" ,
+  link: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/O0YxeTjFn70\" frameborder=\"0\" allowfullscreen></iframe>",
+},
+
+ {order:2,
+ song: "blunt the knives",
+ artist:"unknown",
+ link:"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/sLxNKBTKf2o\" frameborder=\"0\" allowfullscreen></iframe>"}
 ];
 console.log(favSongs);
 var tbody = document.querySelector("tbody");
